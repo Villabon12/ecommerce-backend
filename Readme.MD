@@ -4,6 +4,7 @@ Documentation in proyect
 funcionando, no se hizo prueba de la api/orders
 
 Para iniciar la app localmente hacer uso npm i y luego npm start
+database se usa mongodb para alojarlo localmente hacer un .env y hacer el dato MONGO_URI = y colocar lo que le bote mongodb compass o atlas, en el archivo .env colocar PORT
 
 Si no se instala las dependencias borrar carpeta node_modules y package-lock.json
 
