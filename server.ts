@@ -32,7 +32,7 @@ app.use("/api/products/", productRoutes);
 app.use("/api/orders/", orderRoutes);
 
 //implementar swagger
-app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerSpec));
+app.use('/api-docs/', swaggerUi.serve, swaggerUi.setup(swaggerSpec));
 
 app.listen(PORT, () => {
   console.log(`Server running in ${process.env.NODE_ENV} mode on port ${PORT}`);
